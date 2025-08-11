@@ -5,11 +5,11 @@ An interactive simulator that teaches a Remotely Operated Vehicle (ROV) to navig
 
 
 **Features**
-- ** Q-Learning on a 10×10 grid (Up/Down/Left/Right actions)
+- Q-Learning on a 10×10 grid (Up/Down/Left/Right actions)
 
-- ** Fixed grid + “Generate New Grid” → makes parameter comparisons meaningful
+- Fixed grid + “Generate New Grid” → makes parameter comparisons meaningful
 
-- ** Obstacle types (configurable):
+- Obstacle types (configurable):
 
   0: Free (−1 reward)
   
@@ -19,32 +19,32 @@ An interactive simulator that teaches a Remotely Operated Vehicle (ROV) to navig
   
   3: Strong current (−3 — tunable)
 
-- ** Frontend sliders: epsilon, gamma, alpha, episodes
+- Frontend sliders: epsilon, gamma, alpha, episodes
 
-- ** PNG render of optimal path
+- PNG render of optimal path
 
-- ** CSV export of the learned Q-table
+- CSV export of the learned Q-table
 
-- ** Simple, clean React UI; FastAPI backend
+- Simple, clean React UI; FastAPI backend
 
 
 
 
 **What this project demonstrates**
-- ** How reinforcement learning can be used for path planning in a hazardous environment (ocean in this case)
+- How reinforcement learning can be used for path planning in a hazardous environment (ocean in this case)
 
-- ** The effect of hyperparameters on learning and convergence
+- The effect of hyperparameters on learning and convergence
 
-- ** A full-stack AI app (Python backend + React frontend)
+- A full-stack AI app (Python backend + React frontend)
 
-- ** Real ROVs use more complex models/sensors; this is an educational, scalable abstraction.
+- Real ROVs use more complex models/sensors; this is an educational, scalable abstraction.
 
 
 
 
 **Tech Stack**
-- ** Backend: Python, FastAPI, Uvicorn, NumPy, Matplotlib, Pandas
+- Backend: Python, FastAPI, Uvicorn, NumPy, Matplotlib, Pandas
 
-- ** Frontend: React (CRA), fetch/axios
+- Frontend: React (CRA), fetch/axios
 
-Runtime: Windows-friendly (works cross-platform)
+
