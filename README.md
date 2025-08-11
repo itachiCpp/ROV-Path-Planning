@@ -1,6 +1,6 @@
 # ROV-Path-Planning
 An interactive simulator that teaches a Remotely Operated Vehicle (ROV) to navigate a 2D subsea map using Q-learning. Tune hyperparameters from the UI, generate new environments, visualize the optimal path, and download the learned Q-table.
-<img width="1140" height="760" alt="image" src="https://github.com/user-attachments/assets/02e0f22f-32cd-4f5a-a842-37530f932af8" />
+<img width="900" height="760" alt="image" src="https://github.com/user-attachments/assets/02e0f22f-32cd-4f5a-a842-37530f932af8" />
 
 
 
