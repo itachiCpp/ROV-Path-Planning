@@ -11,13 +11,13 @@ An interactive simulator that teaches a Remotely Operated Vehicle (ROV) to navig
 
 - ** Obstacle types (configurable):
 
-0: Free (−1 reward)
-
-1: Wall/Rock (−10 or blocking)
-
-2: Rock (−5 to −20 — tunable)
-
-3: Strong current (−3 — tunable)
+  0: Free (−1 reward)
+  
+  1: Wall/Rock (−10 or blocking)
+  
+  2: Rock (−5 to −20 — tunable)
+  
+  3: Strong current (−3 — tunable)
 
 - ** Frontend sliders: epsilon, gamma, alpha, episodes
 
@@ -31,20 +31,20 @@ An interactive simulator that teaches a Remotely Operated Vehicle (ROV) to navig
 
 
 **What this project demonstrates**
-How reinforcement learning can be used for path planning in a hazardous environment (ocean in this case)
+- ** How reinforcement learning can be used for path planning in a hazardous environment (ocean in this case)
 
-The effect of hyperparameters on learning and convergence
+- ** The effect of hyperparameters on learning and convergence
 
-A full-stack AI app (Python backend + React frontend)
+- ** A full-stack AI app (Python backend + React frontend)
 
-Real ROVs use more complex models/sensors; this is an educational, scalable abstraction.
+- ** Real ROVs use more complex models/sensors; this is an educational, scalable abstraction.
 
 
 
 
 **Tech Stack**
-Backend: Python, FastAPI, Uvicorn, NumPy, Matplotlib, Pandas
+- ** Backend: Python, FastAPI, Uvicorn, NumPy, Matplotlib, Pandas
 
-Frontend: React (CRA), fetch/axios
+- ** Frontend: React (CRA), fetch/axios
 
 Runtime: Windows-friendly (works cross-platform)
